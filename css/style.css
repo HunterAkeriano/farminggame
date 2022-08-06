@@ -104,9 +104,10 @@ a{
 }
 .header__logo{
   display: flex;
-}
-.header__logo img{
   align-items: center;
+}
+.header__logo a{
+  padding-left: 10px;
 }
 .logo_img{
   height: 30px;
