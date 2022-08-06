@@ -66,6 +66,9 @@ textarea,
 select {
   font: inherit;
 }
+a{
+  text-decoration: none;
+}
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
@@ -77,18 +80,24 @@ select {
   }
 }
 .header{
-    max-width: auto;
+    display: block;
     height: 50px;
     background-color: black;
     padding: 13px;
-    padding-left: 100px ;
+    padding-left: 10px ;
 }
-.header_inner{
+.header__inner{
     display: flex;
     justify-content: space-between;
+    padding: 0px 50px;
 }
-.phone{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
+.header__inner a{
+  padding-left: 0px;
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
+  color: white;
+  opacity: 0.7;
+}
+.header__inner a:hover{
+  opacity: 1;
 }
