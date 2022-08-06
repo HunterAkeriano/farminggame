@@ -81,14 +81,15 @@ a{
 }
 .header{
     display: block;
-    height: 50px;
+    height: 60px;
     background-color: black;
-    padding: 13px;
+    padding: 15px;
     padding-left: 10px ;
 }
 .header__inner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 50px;
 }
 .header__inner a{
@@ -100,4 +101,14 @@ a{
 }
 .header__inner a:hover{
   opacity: 1;
+}
+.header__logo{
+  display: flex;
+}
+.header__logo img{
+  align-items: center;
+}
+.logo_img{
+  height: 30px;
+  width: 30px;
 }
