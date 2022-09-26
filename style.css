@@ -1,170 +1,277 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
 }
-
 .page{
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
     margin: 0 auto;
     
+    background-color: white;
 }
-/* sidebar */
-.aside{
-    width: 370px;
-    background-color:  #1E2939;
-    padding-top: 40px;
+*{
+    box-sizing: border-box;
 }
-
-.contacts{
-    margin: 40px 0 20px 30px;
+/* header-top */
+.header-top{
     
+    background-color: #000000;
+    padding: 10px;
 }
-.contacts-title{
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.time{
     color: white;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 12px;
+    padding-left: 50px;
 }
-.contacts-link{
-    display: block;
-    padding-bottom: 10px;
+.nav-link a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.link:hover{
+    color: blue;
+    transition: color 0.2s linear;
+}
+.re-language a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
     font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
 }
-.span-contacts{
-    color: #3a3a3a
+.re-language{
+    padding: 0px 50px 0px 0px;
 }
-
-/* tech skills */
-.tech-skills{
-    margin: 30px 0 20px 30px;
+/* header */
+.header{
+   
+    padding: 20px 0px 20px 50px;
+    background-color: white;
+    box-shadow: -10px 5px 20px #ccc;
+    
 }
-.tech-skills-ul{
-    padding: 0px;
-    margin-left: 17px;
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: auto;
 }
-.tech-li{
-    color: orange;
+.hamburger-menu{
+    position: relative;
+    width: 50px;
+    top: -19px;
 }
-.tech-text{
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
-    color: white;
-    padding: 0 0 5px 5px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+.logo{
+    display: block;
+    margin: 0px 0px 0px 20px;
 }
-
-/* soft skills */
-
-.soft-skills{
-    margin: 40px 0 100px 30px;
+.meta-form{
+    margin: 0px 100px 0px 200px;
 }
-
-/* content */
-.main-content{
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px 90px;
-}
-.content-one{
-    margin-bottom: 70px;
-}
-.content-subtitle{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 20px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
-.content-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    margin-bottom: 25px;
-    color: #000000;
-}
-.content-text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    width: 400px;
-    /* or 171% */
-
-
-    color: #595959;
-}
-
-
-/* Projects */
-.content-projects{
-    margin-bottom: 40px;
-}
-.content-ol{
-    padding: 0px;
-    margin-left: 17px;
-}
-.content-li{
-    padding-bottom: 10px;
-    font-weight: 700;
-}
-.projects-span{
-    padding-left: 10px;
+.input{
+    padding: 10px 10px 10px 50px;
+    width: 500px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    background-color: rgb(236, 236, 236);
+    font-size: 18px;
     font-weight: 100;
-    color: #3a3a3a;
 }
-
-/* work */
-
-.work-h3{
-    font-size: 24px;
-    margin-bottom: 25px;
+.input:focus{
+    outline:  1px solid blue;
 }
-.work-subtitle-content{
+.btn{
+    margin: 0px 0px 0px 10px;
+  padding: 13px 18px; 
+  border-radius: 20px;
+  width: 100px; 
+  outline: none;
+  border: 0;
+  background-color: yellow;
+  font-weight: 700;
+}
+.btn{
+    cursor: pointer;
+}
+/* help */
+.help{
+    margin: 20px auto;
+    width: 600px;
+    background-color: rgb(3, 3, 51);
+    padding: 15px;
+    border-radius: 10px;
+}
+.help-title{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+/* main */
+.main{
+    display: flex;
+    width: 1340px;
+    margin: 0 auto;
+}
+.aside{
+    flex-basis: 20%;
+}
+/* form */
+
+.form-login{
+    margin: 0px 0px 0px 40px;
+    padding: 10px 20px 0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5% 5% 0% 0%;
+    width: 280px;
+    box-shadow: 1px 1px 10px #ccc, 1px 1px 10px #ccc;
+}
+.forms-title{
+    color: black;
+    margin: 0px 0px 15px 0px;
+    font-size: 16px;
+}
+.input-form{
+    margin: 0px 0px 15px 0px;
+}
+.forms-input{
+    width: 235px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 1px solid #ccc;
+    background-color: rgb(252, 246, 246);
+}
+.forms-input:focus{
+    border: 0;
+    outline: 1px solid blue;
+}
+.input-form-a{
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
-.work-paragraph{
-    margin: 0;
-    font-size: 13px;
-    color:#595959
-}
-.span-content{
-    color: orange;
-}
-.work-ul-list{
-    margin: 0;
-    padding: 15px;
-   padding-bottom: 10px;
-}
-.work-li-list{
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #595959;
-}
-
-/* education */
-.education-h3{
-    font-size: 25px;
-}
-
-.education-h4{
-    color: orange;
-}
-.education-p{
+.form-reset{
+    display: inline-block;
+    margin: 0px 0px 15px 0px;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
 }
-.education-date{
-    font-size: 12px;
-    color: #595959;
+.form-reset:hover{
+    color:rgb(3, 3, 51);
+    transition: color 0.2s linear;
 }
+.btn-form{
+    width: 235px;
+    padding: 8px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    border: 0;
+    background-color:   rgb(0, 110, 255);
+    color: white;
+    opacity: 0.7;
+}
+.btn-form:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+.create-post{
+    margin: 0px 0px 0px 40px;
+    text-align: center;
+    padding: 15px 0px;
+    border: 1px solid #ccc;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(252, 246, 246);
+    box-shadow: 1px 1px 10px #ccc;
+}
+.new-post{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-weight: 700;
+   
+
+}
+
+
+.news{
+    flex-basis: 60%;
+    padding: 30px;
+}
+.news-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.title-news{
+    margin: 0;
+    color: black;
+}
+.link-news a{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+}
+.link-news a:hover{
+    color: rgb(0, 110, 255);
+}
+
+
+
+
+.projects{
+    flex-basis: 20%;
+}
+
