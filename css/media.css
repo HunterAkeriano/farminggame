@@ -5,11 +5,22 @@
     .header__top-phone{
         text-align: center;
         margin-top: 50px;
+        margin: 50px auto 0;
+    }
+}
+
+@media(max-width: 1300px){
+    .box{
+        display: none;
+    }
+    .header-text{
+        margin:  0 auto;
+        padding-top: 200px;
     }
 }
 
 /* burger menu */
-@media(max-width:950px){
+@media(max-width:1020px){
     .aside{
         display: none;
     }
@@ -21,6 +32,7 @@
     }
     .header__top-phone{
         margin-top: 0;
+        margin: 0;
     }
     .content-nav{
         flex-direction: row;
@@ -50,6 +62,9 @@
         cursor: pointer;
         float: right;
         margin: 38px
+    }
+    .box{
+        display: none;
     }
 }
 
