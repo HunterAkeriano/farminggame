@@ -1,6 +1,10 @@
 /* settings */
 body{
     margin: 0;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Condensed"), url("fonts/OpenSans_Condensed-Bold.woff") format("woff");
 }
 h1,h2, h4{
     margin: 0;
