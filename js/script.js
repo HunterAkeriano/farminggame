@@ -42,6 +42,11 @@ navLink.forEach(n => n.addEventListener('click', closeMenu));
 const swiper = new Swiper('.swiper', {
     effect: 'cards',
     grabCursor: true,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 })
 
 
