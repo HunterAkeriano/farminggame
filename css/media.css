@@ -9,20 +9,80 @@
     }
 }
 
-@media(max-width: 1300px){
-    .box{
-        display: none;
+
+
+@media(max-width: 1040px){
+    .li-nav{
+        margin: 0;
     }
-    .header-text{
-        margin:  0 auto;
-        padding-top: 200px;
+    .nav-link{
+        padding: 0;
     }
 }
 
 /* burger menu */
 @media(max-width:1020px){
+    .header__top-phone{
+        margin-top: 50px;
+       
+    }
+    .header__innet{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    .header-text{
+        max-width: inherit;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+    .nav-link{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+
+   
+
+}
+@media(max-width: 992px){
+    .box{
+        display: none;
+    }
     .aside{
         display: none;
+    }
+}
+@media(max-width: 800px){
+    .box{
+        display: none;
+    }
+    .header__innet{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    .header-title{
+        margin: 0;
+        max-width: 800px;
+        padding: 0;
+    }
+    .header-subtitle{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .aside{
+        display: none;
+    }
+    .content-nav{
+        display: flex;
+        flex-direction: row;
     }
     .ul-nav{
         display: none;
@@ -30,14 +90,9 @@
     .burger{
         display: block;
     }
-    .header__top-phone{
-        margin-top: 0;
+    .humb{
         margin: 0;
     }
-    .content-nav{
-        flex-direction: row;
-    }
-
     .burger__content.active{
         left: 0;
         height: 100%;
@@ -57,23 +112,28 @@
         padding-left: 30px;
         margin-bottom: 90px;
     } 
+    .header__top-phone{
+        margin: 0;
+        margin-top: 0px;
+       
+    }
     .close{
         display: block;
         cursor: pointer;
         float: right;
         margin: 38px
     }
-    .box{
-        display: none;
-    }
-}
-
-
-@media(max-width: 1040px){
-    .li-nav{
-        margin: 0;
-    }
     .nav-link{
+        margin: 0;
         padding: 0;
     }
+    .header-text{
+        max-width: inherit;
+        padding: 0;
+        margin-top: 70px;
+    }
+    
 }
+
+
+
