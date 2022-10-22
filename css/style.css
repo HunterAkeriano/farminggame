@@ -2,7 +2,7 @@
 body{
     margin: 0;
 }
-h1,h2{
+h1,h2, h4{
     margin: 0;
 }
 a{
@@ -340,4 +340,91 @@ color: #FFFFFF;
 .swiper-button-prev{
     position: absolute;
     top: 550px;
+}
+
+/* main content */
+
+.info{
+    background-color:  rgba(51, 51, 51, 1);
+}
+.info__content{
+    padding-top: 152px;
+    padding-bottom: 150px;
+}
+.info-title{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.info-span{
+    color: #D1A954;
+}
+
+
+.info__content-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks-one{
+    width: 33%;
+    
+}
+.blocks-one,
+.blocks-two,
+.blocks-three{
+    margin: 80px 30px 0px;
+}
+
+.one-title{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.one-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+
+color: #FFFFFF;
+}
+
+.blocks-two{
+    width: 33%;
+}
+.two-numbers{
+    margin-top: 40px;
+}
+.two-text{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+/* white */
+
+color: #FFFFFF;
+}
+.blocks-three{
+    width: 10%;
+
+    margin-left: -150px;
 }
