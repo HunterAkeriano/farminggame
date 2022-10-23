@@ -24,6 +24,60 @@
     }
 
 }
+@media(max-width:1107px){
+    .mizzenats-block{
+        flex-direction: column-reverse;
+    }
+    .mizzenats-forma{
+        height: 100%;
+        width: 50%;
+    }
+    .mizz-inpuy{
+        width: 100%;
+    }
+    .mizzenats__forms{
+        position: relative;
+    }
+    .textarea-block{
+        position: absolute;
+        top: 225px;
+    }
+    .textarea{
+        width: 100%;
+    }
+    .forms-end{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .forma-btn{
+        margin: 0;
+        max-width: 190px;
+        margin: 0 auto;
+    }
+    .form-text{
+        width: 100%;
+    }
+    .mizzenats-info{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .mizzenats-numbers{
+        text-align: center;
+    }
+    .number-one{
+        width: 50%;
+    }
+    .number-two{
+        width: 50%;
+    }
+    .emaul-one{
+        width: 50%;
+    }
+}
+
+
 
 @media(max-width: 1040px){
     .li-nav{
@@ -64,6 +118,11 @@
    
 
 }
+
+
+
+
+
 @media(max-width: 992px){
     .box{
         display: none;
@@ -100,7 +159,42 @@
     .header-subtitle{
         max-width: 100%;
     }
+    .mizzenats-title{
+        font-size: 36px;
+    }
 }
+
+@media(max-width: 991px){
+    /* .forms-end{
+        margin-top: 200px;
+    } */
+    /* .mizzenats-forma{
+        position: relative;
+    }
+    .textarea-block{
+        position: absolute;
+        bottom: 70%;
+        margin-top: 50px;
+    } */
+}
+/* @media(max-width: 901px){
+      .forms-end{
+        margin-top: 100px;
+    } 
+     .mizzenats-forma{
+        position: relative;
+    }
+    .textarea-block{
+        position: absolute;
+        bottom: 40%;
+        margin-top: 50px;
+        width: inherit;
+    } 
+    .mizz-inpuy{
+        margin: 0 10px 10px 0px;
+    }
+}  */
+
 
 @media(max-width: 768px){
     .aside{
@@ -187,7 +281,15 @@
         margin-top: 60px;
     }
 }
-
+@media(max-width: 730px){
+    .mizzenats-info{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .mizzenats-numbers {
+        width: 100%;
+    }
+}
 
 @media(max-width: 576px){
     .info__content-blocks{

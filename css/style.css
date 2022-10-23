@@ -622,6 +622,7 @@ color: #FFFFFF;
 .mizzenats{
     background-color:  rgba(51, 51, 51, 1);
     padding-top: 120px;
+    padding-bottom: 80px;
 }
 .mizzenats-title{
     font-family: 'Open Sans Condensed';
@@ -638,4 +639,137 @@ color: #FFFFFF;
 
 .mizzenats-block{
     display: flex;
+    margin-top: 80px;
+}
+.mizzenats-forma{
+    width: 66%;
+    margin: 0 auto;
+}
+
+.mizzenats-numbers{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.mizzenats-info{
+    margin-right: 40px;
+}
+
+
+.mizzenats__forms{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mizz-inpuy{
+    margin-right: 10px;
+    max-height: 35px;
+    margin-bottom: 20px;
+    
+}
+.textarea{
+    width: 300px;
+    height: 89px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.textarea:focus{
+    border: 0;
+    outline: 0;
+}
+
+/* inputs */
+.input{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+background-color: rgba(97, 97, 97, 1);
+border: 0;
+align-items: center;
+color: #989898;
+width: 100%;
+height: 35px;
+padding: 10px 15px;
+}
+
+.input:focus{
+    outline: 0;
+}
+
+.textarea{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    background-color: rgba(97, 97, 97, 1);
+    border: 0;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    padding: 10px 15px;
+}
+.form-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+color: #989898;
+width: 55%;
+}
+
+.forms-end{
+    display: flex;
+    margin-top: 40px;
+}
+
+.forma-btn{
+    display: block;
+    margin-left: 180px;
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #D1A954;
+border: 0;
+padding: 10px 12px;
+cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    background-color:  rgba(51, 51, 51, 1);
+}
+.footer__content{
+    border-top: 1px solid #565656;;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #989898;
 }
