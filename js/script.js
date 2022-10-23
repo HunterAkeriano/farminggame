@@ -70,4 +70,47 @@ const swiper2 = new Swiper('.swiper2', {
 }
 })
 
+// swiper для партёнров
+
+const swiper3 = new Swiper('.swiper3', {
+    centerSlides: 'true',
+   fade: 'true',
+   breakpoints: {
+    320: {
+        slidesPerView: 1,
+    },
+    552:{
+        slidesPerView: 2
+    },
+    992: {
+        slidesPerView: 2,
+        loop: true,
+    },
+    1061: {
+        slidesPerView: 4,
+    }
+}
+});
+
+
+const swiper4 = new Swiper('.swiper4', {
+    centerSlides: 'true',
+   fade: 'true',
+   breakpoints: {
+    320: {
+        slidesPerView: 1,
+    },
+    552:{
+        slidesPerView: 2
+    },
+    992: {
+        slidesPerView: 2,
+        loop: true,
+    },
+    1061: {
+        slidesPerView: 4,
+    }
+}
+})
+
 

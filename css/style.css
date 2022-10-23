@@ -548,3 +548,94 @@ left: 0;
     opacity: 0;
 }
 
+
+
+/* years */
+.years{
+    background-color:  rgba(51, 51, 51, 1);
+}
+
+.years__info{
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9)), url('../img/background-years.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 190px;
+    display: flex;
+    padding-left: 190px;
+    padding-bottom: 120px;
+}
+.years-title{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 98px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #D1A954;
+}
+
+.years__text{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.years-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.partners{
+    background-color:  rgba(51, 51, 51, 1);
+    padding-top: 150px;
+}
+.partners-title{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.swiper3{
+    margin-top: 200px;
+    overflow: hidden;
+}
+.swiper3-content,
+.swiper4-content {
+    align-items: center;
+}
+.swiper4{
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+
+
+.mizzenats{
+    background-color:  rgba(51, 51, 51, 1);
+    padding-top: 120px;
+}
+.mizzenats-title{
+    font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.mizzenats-block{
+    display: flex;
+}
