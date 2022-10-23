@@ -50,6 +50,24 @@ const swiper = new Swiper('.swiper1', {
       autoplay:{
         delay: 1500,
       }
+});
+
+// swiper для Наших Постановок
+
+const swiper2 = new Swiper('.swiper2', {
+    centerSlides: 'true',
+   fade: 'true',
+   breakpoints: {
+    320: {
+        slidesPerView: 1,
+    },
+    992: {
+        slidesPerView: 2,
+    },
+    1061: {
+        slidesPerView: 4,
+    },
+}
 })
 
 
