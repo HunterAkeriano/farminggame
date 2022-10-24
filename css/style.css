@@ -611,7 +611,10 @@ color: #FFFFFF;
 .swiper3-content,
 .swiper4-content {
     align-items: center;
+    
 }
+
+
 .swiper4{
     overflow: hidden;
     margin-top: 90px;

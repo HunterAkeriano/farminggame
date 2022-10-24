@@ -73,11 +73,12 @@ const swiper2 = new Swiper('.swiper2', {
 // swiper для партёнров
 
 const swiper3 = new Swiper('.swiper3', {
-    centerSlides: 'true',
-   fade: 'true',
+    // centerSlides: 'true',
+//    fade: 'true',
+//    spaceBetween: 5,
    breakpoints: {
     320: {
-        slidesPerView: 1,
+        slidesPerView: 2,
     },
     552:{
         slidesPerView: 2
@@ -94,11 +95,11 @@ const swiper3 = new Swiper('.swiper3', {
 
 
 const swiper4 = new Swiper('.swiper4', {
-    centerSlides: 'true',
-   fade: 'true',
+    // centerSlides: 'true',
+//    fade: 'true',
    breakpoints: {
     320: {
-        slidesPerView: 1,
+        slidesPerView: 2,
     },
     552:{
         slidesPerView: 2

@@ -30,17 +30,26 @@
     }
     .mizzenats-forma{
         height: 100%;
-        width: 50%;
-    }
-    .mizz-inpuy{
         width: 100%;
     }
+    .compain-intup,
+    .email-block,
+    .names-company,
+    .telephone{
+        width: 45%;
+    }
+    .input{
+        margin-right: 0px;
+    }
     .mizzenats__forms{
+        flex-wrap: wrap;
+        justify-content: space-between;
         position: relative;
     }
     .textarea-block{
         position: absolute;
-        top: 225px;
+        top: 120px;
+        width: 100%;
     }
     .textarea{
         width: 100%;
@@ -63,8 +72,15 @@
         flex-wrap: wrap;
         margin-top: 40px;
     }
-    .mizzenats-numbers{
-        text-align: center;
+    .mizzenats-info{
+        margin-right: 0
+    }
+    .number-two,
+    .end-text{
+        text-align: right;
+    }
+    .end-text{
+        width: 50%;
     }
     .number-one{
         width: 50%;
@@ -282,14 +298,20 @@
     }
 }
 @media(max-width: 730px){
-    .mizzenats-info{
+    /* .mizzenats-info{
         flex-wrap: nowrap;
         flex-direction: column;
     }
     .mizzenats-numbers {
         width: 100%;
+    } */
+    .mizzenats-numbers{
+        font-size: 14px;
     }
 }
+
+
+
 
 @media(max-width: 576px){
     .info__content-blocks{
@@ -330,3 +352,17 @@
     
 }
 
+@media(max-width:560px){
+    
+.partners1,
+.partners2,
+.partners3,
+.partners4{
+    width: 50%;
+    margin-right: 20px;
+}
+.img-parters{
+    width: 100%
+}
+
+}
